@@ -1,4 +1,14 @@
 # loxa
 Assignment for interview
 
-Used xampp to do all my testing along with its built in mysql
+-Clone repository onto server.
+
+
+-Use db.sql to setup database.
+
+
+-Do stuff with products on boring white screen with a table.
+
+
+
+MYsql 5.7 and PHP 5.6.19
