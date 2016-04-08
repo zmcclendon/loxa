@@ -18,7 +18,6 @@
 
         <?php
 
-
         try{
             if(isset($_POST['submit'])&&isset($_POST['operation'])) {
                 //process here
@@ -79,6 +78,7 @@
                 }
 
                 $check = mysqli_query($db, $sql);
+
             }
 
 
