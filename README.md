@@ -7,7 +7,7 @@ Assignment for interview
 -Use db.sql to setup database.
 
 
--Do stuff with products on boring white screen with a table.
+
 
 
 
