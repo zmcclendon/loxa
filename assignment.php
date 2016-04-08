@@ -79,8 +79,6 @@
                 }
 
                 $check = mysqli_query($db, $sql);
-                $row = mysqli_fetch_array($check);
-                echo $row['amount'];
             }
 
 
