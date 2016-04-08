@@ -40,7 +40,7 @@
                     throw new Exception('Invalid SKU');
 
 
-                $db = mysqli_connect('localhost', 'root', '', 'php');
+               include 'config.php';
                 $sql = sprintf("SELECT * FROM loxa WHERE SKU='%s'",
                     mysqli_real_escape_string($db,$_POST['SKU']));
 
@@ -102,7 +102,7 @@
             </tr>
             <tr>
                 <?php
-                $db = mysqli_connect('localhost', 'root', '', 'php');
+                include 'config.php';
                 $result = mysqli_query($db,"SELECT * FROM loxa");
                 foreach($result as $value) {
                     echo '<tr>';
