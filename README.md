@@ -1,4 +1,4 @@
 # loxa
 Assignment for interview
 
-Used xampp to do all my testing along with its built in mysql
+MYsql 5.7 and PHP 5.6.19
