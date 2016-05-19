@@ -1,0 +1,41 @@
+body{
+	margin: 0px;
+	overflow:hidden;
+	background: #10223a;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-size: 100% auto;
+	color: white;
+	font: 400 16px/29px "Ubuntu", sans-serif;
+	-webkit-text-size-adjust: none;
+}
+
+input[type=button]{
+    font-family: "Ubuntu";
+}
+
+
+
+.list{
+	font: 400 20px/34px "Ubuntu", sans-serif;
+	color: white;
+	position: absolute;
+  text-align: left;
+	left: 25%;
+  width: 500px;
+  white-space: break-word;
+	/* bring your own prefixes */
+}
+
+.deleteList{
+	font: 400 20px/20px "Ubuntu", sans-serif;
+	position: absolute;
+	left: 90%;
+  width: 30px;
+	transform: translate(120%,0%);
+	/* bring your own prefixes */
+}
+
+.shiftRight{
+	left:5%;
+}
